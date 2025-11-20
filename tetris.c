@@ -25,7 +25,6 @@ int indice_tipo_atual = 0;
 int total_tipos = 7; // Quantidade de tipos determinada
 
 // funções da Fila
-
 void inicializarFila(FilaPecas *f) {
     f->inicio = 0;
     f->fim = 0;
@@ -79,7 +78,7 @@ void mostrarFila(FilaPecas *f) {
     printf("\n-----------------------\n");
 }
 
-// criacao de uma função para gerar uma peça de forma sequencial (considerando que nao se trata de uma forma aleatória)
+// criacao de uma função para gerar uma peca de forma sequencial (considerando que nao se trata de uma forma aleatória)
 Peca gerarPeca() {
     Peca nova_peca;
     
